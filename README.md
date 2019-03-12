@@ -9,8 +9,9 @@ any cellular confocal microscopy dataset.
 
 
 To use the macro, 
- 1. open Fiji and go (Plugins -> Macros -> Edit) an open the macro file.
- 2. change the filepath, filename, and n_images variables to fit your dataset.
+ 1. open Fiji and go (Plugins -> Macros -> Edit) an open the macro file
+ 2. change the filepath, filename, and n_images variables to fit your dataset
+    - for the 'night_sky.gif' data, n_images = 1 (because we sum all frames)
  3. press run
  4. don't press anything until it finishes
  5. remember to save your results
