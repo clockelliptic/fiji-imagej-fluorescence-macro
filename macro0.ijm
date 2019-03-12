@@ -1,5 +1,5 @@
-filepath = "C:\\Users\\allen\\OneDrive\\Desktop\\feli\\"; //location containing your file
-filename = "H9C2 CTP Cy5.5.lif" //the name of the file itself
+filepath = "C:\\Users\\Bob\\Documents\\files\\"; //location containing your file
+filename = "my_file" //the name of the file itself
 open(filepath+filename);
 
 n_images = 13; //number of images in the set
