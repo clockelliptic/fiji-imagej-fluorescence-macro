@@ -9,7 +9,7 @@ any cellular confocal microscopy dataset.
 
 
 To use the macro, 
- 1. open Fiji and go (Plugins -> Macros -> Edit) an open the macro file
+ 1. open Fiji and go (Plugins -> Macros -> Edit) to open the macro file
  2. change the filepath, filename, and n_images variables to fit your dataset
  3. press run
  4. don't press anything until it finishes
