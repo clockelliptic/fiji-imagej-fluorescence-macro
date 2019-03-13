@@ -2,7 +2,7 @@ filepath = "C:\\Users\\Bob\\Documents\\files\\"; //location containing your file
 filename = "my_file.lif" //the name of the file itself
 open(filepath+filename);
 
-n_images = 13; //number of images in the set
+n_images = 100; //number of images in the set, set this to 1 for the night_sky.gif example
 
 // this routine is performed on each image, one at a time
 function measure_intensity(image_name){
