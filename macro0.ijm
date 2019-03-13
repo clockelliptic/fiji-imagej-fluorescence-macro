@@ -1,5 +1,5 @@
 filepath = "C:\\Users\\Bob\\Documents\\files\\"; //location containing your file
-filename = "my_file" //the name of the file itself
+filename = "my_file.lif" //the name of the file itself
 open(filepath+filename);
 
 n_images = 13; //number of images in the set
@@ -19,7 +19,8 @@ function measure_intensity(image_name){
 	
 	//convert to mask using Huang method 
 	run("Convert to Mask", "method=Huang background=Dark calculate black");
-	
+
+	run("Fill Holes", "stack");      // fill any holes in our outline to compensate for dark cell nuclei etc.
 	run("Dilate", "stack");          // dilate (expand) the mask slightly to get better selection
 	run("Create Selection");         // convert the mask into a selection
 	run("ROI Manager...");           // open the ROI manager
